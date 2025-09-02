@@ -31,6 +31,12 @@ app.use(passport.session()); //enable session support
 //oauth authentication routes
 app.use("/auth", require("./routes/oauth"));
 
+//user registration/login routes
+app.use("/api/users", require("./routes/userRoutes"));
+
+//bookmark routes
+app.use("/api/bookmarks", require("./routes/bookmarkRoutes"));
+
 //health check/test endpoint
 app.get("/", (req, res) => {
   res.send("Server is running!");
