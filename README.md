@@ -33,6 +33,8 @@ A secure Express.js backend service that provides authentication and private dat
 - MongoDB with proper schema validation
 - Timestamp tracking for all records
 
+---
+
 #### Technology Stack
 
 - Backend Framework: Express.js
@@ -43,6 +45,8 @@ A secure Express.js backend service that provides authentication and private dat
 - [x] GitHub OAuth 2.0 implementation
 
 - Security: Environment variables for sensitive data
+
+---
 
 #### Project Structure
 
@@ -68,6 +72,8 @@ secure-web-portal/
 
 ```
 
+---
+
 #### Getting Started
 
 - Clone the repository
@@ -83,16 +89,7 @@ secure-web-portal/
 
 - Start the server: npm start
 
-#### API Endpoints
-
-- POST /api/auth/register - User registration
-- POST /api/auth/login - User login
-- GET /api/auth/github - Initiate GitHub OAuth
-- GET /api/auth/github/callback - GitHub OAuth callback
-- GET /api/bookmarks - Retrieve user's bookmarks
-- POST /api/bookmarks - Create a new bookmark
-- PUT /api/bookmarks/:id - Update a bookmark
-- DELETE /api/bookmarks/:id - Delete a bookmark
+---
 
 #### Security Considerations
 
@@ -101,6 +98,8 @@ secure-web-portal/
 - User data isolation at the database level
 - Secure session management
 - Input validation and sanitization
+
+---
 
 #### How to test in Postman
 
@@ -232,9 +231,11 @@ Expected: 200 OK, { message: "Deleted successfully" }
 If not yours: 404 Not Found.
 ```
 
+---
+
 #### References
 
-My primary resource for completing the lab was the code from our class lessons, [Bryan Santos](https://www.linkedin.com/in/bryandevelops/) code sugestions shared in slack. Additionally, I used the resources mentioned below to deepen my understanding of the concepts and code flow
+My primary resource for completing the project was the code from our class lessons, [Bryan Santos](https://www.linkedin.com/in/bryandevelops/) code sugestions shared in slack. Additionally, I used the resources mentioned below to deepen my understanding of the concepts and code flow
 
 - [mongoose](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose)
 
