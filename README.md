@@ -77,8 +77,8 @@ secure-web-portal/
 #### Getting Started
 
 - Clone the repository
-  `git clone https://github.com/urmee04/secure-web-portal.git`
-  `cd secure-web-portal`
+  - [x] `git clone https://github.com/urmee04/secure-web-portal.git`
+  - [x] `cd secure-web-portal`
 - Install dependencies: npm install
 - Set up environment variables:
 
