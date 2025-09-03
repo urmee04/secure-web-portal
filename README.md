@@ -60,15 +60,15 @@ secure-web-portal/
 │  ├─ User.js
 │  └─ Bookmark.js
 ├─ routes/
-│  ├─ users.js         // local register/login
-│  ├─ oauth.js         // GitHub OAuth
-│  └─ bookmarks.js     // secure CRUD
+│  ├─ users.js         
+│  ├─ oauth.js         
+│  └─ bookmarks.js     
 ├─ utils/
-│  └─ auth.js          // signToken + authMiddleware
+│  └─ auth.js         
 ├─ .env
 ├─ .gitignore
 └─ server.js
-                   # Environment variables
+                 
 
 ```
 
