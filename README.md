@@ -83,9 +83,10 @@ secure-web-portal/
 - Set up environment variables:
 
 - [x] MONGODB_URI: MongoDB connection string
-- [x] SESSION_SECRET: Secret for session management
+- [x] JWT_SECRET: super-secret-jwt-key-here
 - [x] GITHUB_CLIENT_ID: GitHub OAuth App Client ID
 - [x] GITHUB_CLIENT_SECRET: GitHub OAuth App Client Secret
+- [x] GITHUB_CALLBACK_URL=http://localhost:3000/auth/github/callback
 
 - Start the server: npm start
 
